@@ -1,0 +1,30 @@
+{
+  "name": "pkgwatch",
+  "version": "1.0.4",
+  "description": "A dependency to tell you all your outdated packages in your package.json",
+  "main": "pkg/index.js",
+  "type": "module",
+  "bin": {
+    "pkgwatch": "./pkg/index.js"
+  },
+  "scripts": {
+    "test": "node test/pkgwatch.test.js",
+    "dev": "node src/pkgwatch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myferr/pkgwatch.git"
+  },
+  "keywords": [
+    "dependencies"
+  ],
+  "author": "myfer <contactme.myfer@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myferr/pkgwatch/issues"
+  },
+  "homepage": "https://github.com/myferr/pkgwatch#readme",
+  "dependencies": {
+    "inquirer": "^12.3.2"
+  }
+}
